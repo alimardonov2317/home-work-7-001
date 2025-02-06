@@ -1,7 +1,7 @@
 import { useStateValue } from '@/context'
 import React, { useEffect } from 'react'
 import ProductsHome from '../home/ProductsHome'
-import WishlistImage from "@/assets/Wishlist.png"
+import WishlistImage from "@/assets/wishlist.png"
 
 const Wishlist = () => {
     const [state] = useStateValue()
